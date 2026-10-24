@@ -749,6 +749,25 @@ footer.site-footer {
 }
 
 /* ================= СТРАНИЦА INDEX ================= */
+/* Стили для лайтбокса в светлой теме */
+[data-theme="light"] .lightbox {
+  background: rgba(245, 241, 251, 0.95);
+  backdrop-filter: blur(12px);
+}
+[data-theme="light"] .lightbox img,
+[data-theme="light"] .lightbox video {
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.3), 0 0 60px rgba(139, 92, 246, 0.2);
+}
+[data-theme="light"] .lightbox-close {
+  background: rgba(139, 92, 246, 0.1);
+  border: 1px solid var(--accent);
+  color: var(--accent-dark);
+}
+[data-theme="light"] .lightbox-close:hover {
+  background: var(--accent);
+  color: white;
+}
+
 .story-content { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 .section {
   padding: 100px 0;
