@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Добро пожаловать — IT top College</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') {
+          document.documentElement.setAttribute('data-theme', t);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <script src="theme-toggle.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header" id="siteHeader">
+    <a href="index.html" class="logo-round" title="На главную">
+      <img src="/icon and logo/logo.avif" alt="Логотип">
+    </a>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Сменить тему"></button>
+    </div>
+  </header>
+
+  <header class="cover" id="cover">
+    <div class="logo-big logo-round">
+      <img src="/icon and logo/logo.avif" alt="Логотип IT top College">
+    </div>
+    <h1>Добро пожаловать</h1>
+    <p class="cover-sub">в IT top College</p>
+    <div class="divider"></div>
+    <a href="#director" class="btn-start" id="start-btn">Начать знакомство</a>
+    <p class="cover-foot">Учёба, люди и яркие моменты</p>
+  </header>
+
+  <main class="story-content">
+
+    <section class="section" id="director">
+      <div class="director-block">
+        <div class="director-photo">
+          <img src="/teachers/Хусаинова Чулпан Заудатовна.jpg" alt="Фото недоступно">
+        </div>
+        <div class="director-info">
+          <h2>Директор колледжа ТОП</h2>
+          <p>Наш директор — человек, благодаря которому колледж стал вторым домом для сотен студентов. Он всегда открыт к диалогу, поддерживает инициативы и создаёт ту самую атмосферу, в которой хочется учиться и развиваться.</p>
+          <blockquote class="director-quote">
+            <p>«Не ждите идеального момента — создайте его сами: каждый ваш шаг сегодня становится фундаментом успеха завтра» — Хусаинова Чулпан Заудатовна.</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="academic">
+      <h2 class="section-title">Учебная часть</h2>
+
+      <div class="academic-layout">
+        <div class="academic-col">
+          <div class="staff-card">
+            <img src="/teachers/Иванова Мария.jpg" alt="Фото недоступно">
+            <div class="staff-name">Мария Петровна</div>
+            <div class="staff-role">Заведующая учебной частью</div>
+          </div>
+          <!-- <div class="academic-quote">
+            <p>«Не ждите идеального момента — создайте его сами: каждый ваш шаг сегодня становится фундаментом успеха завтра»</p>
+          </div> -->
+        </div>
+
+        <div class="academic-col">
+          <div class="staff-card">
+            <img src="/teachers/Наталья Фролова.jpg" alt="Фото недоступно">
+            <div class="staff-name">Наталья Фролова</div>
+            <div class="staff-role">Менеджер учебного процесса</div>
+          </div>
+          <!-- <div class="academic-quote">
+            <p>«Не ждите идеального момента — создайте его сами: каждый ваш шаг сегодня становится фундаментом успеха завтра»</p>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="section-text">
+        <p>Учебная часть — это сердце нашего колледжа. Здесь всегда помогут, подскажут и направят. Эти два человека координируют весь учебный процесс и знают ответ на любой вопрос. <strong>Спасибо вам за ваш труд и терпение!</strong></p>
+      </div>
+    </section>
+
+    <section class="section" id="staff">
+      <h2 class="section-title">Педагогический состав</h2>
+      <div class="teachers-grid">
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Семенов Семен.jpg" alt="Фото недоступно"></div><div class="teacher-name">Семенов Семен</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Неприна Лена.jpg" alt="Фото недоступно"></div><div class="teacher-name">Неприна Лена</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Морозова Екатерина.jpg" alt="Фото недоступно"></div><div class="teacher-name">Морозова Екатерина</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Шишкина Дарья.jpg" alt="Фото недоступно"></div><div class="teacher-name">Шишкина Дарья</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Назарова Юлия.jpg" alt="Фото недоступно"></div><div class="teacher-name">Назарова Юлия</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Кудинова Евгения.jpg" alt="Фото недоступно"></div><div class="teacher-name">Кудинова Евгения</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Кириллов Денис.jpg" alt="Фото недоступно"></div><div class="teacher-name">Кириллов Денис</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Григорьев Марат.jpg" alt="Фото недоступно"></div><div class="teacher-name">Григорьев Марат</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Аракчеева Анна.jpg" alt="Фото недоступно"></div><div class="teacher-name">Аракчеева Анна</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Анастасию Козубенко.jpg" alt="Фото недоступно"></div><div class="teacher-name">Анастасию Козубенко</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Кирилова Екатерина.jpg" alt="Фото недоступно"></div><div class="teacher-name">Кирилова Екатерина</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Дрождин Дмитрий.jpg" alt="Фото недоступно"></div><div class="teacher-name">Дрождин Дмитрий</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Курбатов Данила.jpg" alt="Фото недоступно"></div><div class="teacher-name">Курбатов Данила</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Абубякирова Дания.jpg" alt="Фото недоступно"></div><div class="teacher-name">Абубякирова Дания</div></div>
+        <div class="teacher-card"><div class="teacher-avatar"><img src="/teachers/Евгения Терехина.jpg" alt="Фото недоступно"></div><div class="teacher-name">Евгения Терехина</div></div>
+      </div>
+      <div class="section-text">
+        <p>Люди, которые вкладывают в нас знания, силы и душу. Каждый из них — профессионал своего дела и наставник, к которому всегда можно обратиться за советом.</p>
+      </div>
+    </section>
+
+    <section class="section" id="life">
+      <h2 class="section-title">Наша жизнь</h2>
+      <div class="grid-8">
+        <img src="/images/5363942269402160762.jpg" alt="Фото недоступно">
+        <img src="/images/IMG_5062.jpg" alt="Фото недоступно">
+        <img src="/images/5363942269402160749.jpg" alt="Фото недоступно">
+        <img src="/images/5363942269402160780.jpg" alt="Фото недоступно">
+        <img src="/images/5363942269402160752.jpg" alt="Фото недоступно">
+        <img src="/images/5363942269402160764.jpg" alt="Фото недоступно">
+        <img src="/images/5363942269402160736.jpg" alt="Фото недоступно">
+        <img src="/images/IMG_2931.JPG" alt="Фото недоступно">
+      </div>
+      <div class="section-text">
+        <p>Учёба — это не только пары и зачёты. Это мероприятия, конкурсы, поездки и моменты, которые запоминаются навсегда. Здесь мы показываем самые яркие кадры из нашей студенческой жизни.</p>
+      </div>
+      <div class="center-btn">
+        <a href="months.html" class="btn-start">Перейти к главам</a>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="rotating-social-icon">
+    <div class="rotating-icon-container">
+      <a href="https://wa.me/79278287727" class="rotating-icon whatsapp" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+        <img src="/icon and logo/whatsapp-icon.png" alt="WhatsApp" width="50" height="50" loading="lazy">
+      </a>
+      <a href="https://t.me/academya73" class="rotating-icon telegram" target="_blank" rel="noopener noreferrer" title="Telegram">
+        <img src="/icon and logo/telegram-icon.png" alt="Telegram" width="80" height="80" loading="lazy">
+      </a>
+      <a href="https://m.vk.ru/it_academy_uly" class="rotating-icon vk" target="_blank" rel="noopener noreferrer" title="ВКонтакте">
+        <img src="/icon and logo/vk-icon.png" alt="ВКонтакте" width="70" height="70" loading="lazy">
+      </a>
+      <a href="https://max.ru/channel_itacademy_top" class="rotating-icon max" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+        <img src="/icon and logo/Maxapp-icon.png" alt="MAX" width="50" height="50" loading="lazy">
+      </a>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Закрыть">&times;</button>
+    <img src="" alt="" id="lightbox-img">
+  </div>
+
+  <script>
+    var startBtn = document.getElementById('start-btn');
+    if (startBtn) {
+      startBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        var target = document.getElementById('director');
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var sections = document.querySelectorAll('.section');
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.15 });
+        sections.forEach(function(section) { observer.observe(section); });
+      } else {
+        sections.forEach(function(section) { section.classList.add('visible'); });
+      }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var header = document.getElementById('siteHeader');
+      var cover = document.getElementById('cover');
+      if (!header || !cover) return;
+
+      var headerHeight = header.offsetHeight;
+
+      function checkHeader() {
+        var coverBottom = cover.getBoundingClientRect().bottom;
+        if (coverBottom <= headerHeight) {
+          header.classList.add('visible');
+        } else {
+          header.classList.remove('visible');
+        }
+      }
+
+      window.addEventListener('scroll', checkHeader, { passive: true });
+      window.addEventListener('resize', checkHeader);
+      checkHeader();
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var lightbox = document.getElementById('lightbox');
+      var lightboxImg = document.getElementById('lightbox-img');
+      var btnClose = document.getElementById('lightbox-close');
+      var allImages = document.querySelectorAll('.director-photo img, .staff-card img, .grid-8 img, .teacher-avatar img');
+
+      allImages.forEach(function (img) {
+        img.style.cursor = 'zoom-in';
+        img.addEventListener('click', function () {
+          lightboxImg.src = img.src;
+          lightboxImg.alt = img.alt || 'Просмотр фото';
+          lightbox.classList.add('open');
+          lightbox.setAttribute('aria-hidden', 'false');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+
+      function closeLightbox() {
+        lightbox.classList.remove('open');
+        lightbox.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      }
+
+      btnClose.addEventListener('click', closeLightbox);
+      lightbox.addEventListener('click', function (e) {
+        if (e.target === lightbox) closeLightbox();
+      });
+      document.addEventListener('keydown', function (e) {
+        if (!lightbox.classList.contains('open')) return;
+        if (e.key === 'Escape') closeLightbox();
+      });
+    });
+  </script>
+</body>
+</html>
