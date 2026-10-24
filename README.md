@@ -1,4 +1,4 @@
-# Моя история
+# Дайджест Ульяновск
 
 **Версия: v1.0.0**
 
@@ -38,4 +38,4 @@
 ## 🚀 Посмотреть
 
 Сайт доступен по адресу:  
-**https://platonovtimur.github.io/my-history/**
+**https://platonovtimur.github.io/Daydzhest-Ulyanovsk/**
